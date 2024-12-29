@@ -1,0 +1,6 @@
+#Launching webdriver
+
+import selenium
+from selenium.webdriver import Chrome
+driver = webdriver.Chrome
+request = driver.get("www.google.com")
